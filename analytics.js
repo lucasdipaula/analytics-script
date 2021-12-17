@@ -1,4 +1,4 @@
-const api = 'http://localhost:5001/tcc-analytics-tool-backend/us-central1/app/api'
+const api = 'https://analytics-tool-api.herokuapp.com/api'
 
 function getBrowser() {
     if ((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1) {
